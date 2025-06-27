@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuenta Regresiva Fiestas Patrias 2025!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- Fondo de video: Bandera de Chile ondeando -->
+  <video autoplay muted loop id="background-video">
+    <source src="bandera.mp4" type="video/mp4">
+    Tu navegador no soporta video en HTML5.
+  </video>
+
+  
+  <!-- Contenido central -->
+  <div class="container animate__animated animate__fadeInDown">
+ 
+     <!-- Frase chilena animada (posicionada arriba de todo) -->
+  <div id="frase-chilena" class="animate__animated animate__fadeInDown"></div>
+ 
+    <h1 class="animate__animated animate__bounceIn animate__delay-1s">
+      <img src="iconchile.png" alt="Chile" class="icon-title">
+      ¡¿Cuánto falta para el 18?!
+      <img src="iconchile.png" alt="Chile" class="icon-title">
+    </h1>
+
+    <div id="countdown" class="animate__animated animate__zoomIn animate__delay-2s">
+      <div><span id="days">0</span><p>Días</p></div>
+      <div><span id="hours">0</span><p>Horas</p></div>
+      <div><span id="minutes">0</span><p>Minutos</p></div>
+      <div><span id="seconds">0</span><p>Segundos</p></div>
+    </div>
+
+        <div id="teaser" class="animate__animated animate__flash animate__infinite">
+        🕺💃 ¡Presiona el botón y que empiece la fiesta!
+        </div>
+    <button id="btnAudio">🔊 Reproducir guaracha 🇨🇱</button>
+    <audio id="audioCueca" loop>
+     <source src="GUARACHA-LA-CONSENTIDA.mp3" type="audio/mp3">
+    Tu navegador no soporta audio en HTML5.
+    </audio>
+
+<div class="redes">
+        <a href="https://github.com/DonGeeo87" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+        </a>
+        <a href="https://instagram.com/giorgio.interdonato" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/@lanzatumarcadigital" target="_blank" rel="noopener noreferrer" title="YouTube">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        </a>
+        </div>
+
+
+</div>
+
+        <script src="script.js"></script>
+
+    <footer class="creditos">
+    Música: “GUARACHA-LA-CONSENTIDA” (Aleteo y Zapateo) por  
+    <a href="https://www.youtube.com/@deejayveli4113" target="_blank" rel="noopener noreferrer">
+        DJLOCOV3LI (@deejayveli4113)
+    </a>
+    </footer>
+
+   </body>
+</html>
