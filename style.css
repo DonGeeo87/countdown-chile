@@ -195,3 +195,16 @@ footer.creditos a {
 .redes img:hover {
   transform: scale(1.2);
 }
+
+.visitas {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.visitas img {
+  height: 28px;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
+}
